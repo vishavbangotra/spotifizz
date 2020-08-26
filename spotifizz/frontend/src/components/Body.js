@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {Container, Row, Col } from 'reactstrap';
 class Body extends Component{
     componentDidMount(){
-        
+        const url = "ad"
     }
     render(){
         return(
