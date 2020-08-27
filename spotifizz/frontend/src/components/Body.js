@@ -8,14 +8,23 @@ class Body extends Component{
         return(
             <div>
                 <Container>
-                    <Row xs="3">
-                        <Col >
+                    <Row style={{background:"skyblue"}} md="4">
+                        <Col md="4">
                              Hello
                         </Col>
-                        <Col>
+                        <Col md="4">
                             Hello
                         </Col>
-                        <Col>
+                        <Col md="4">
+                            Hello
+                        </Col>
+                        <Col md="4">
+                             Hello
+                        </Col>
+                        <Col md="4">
+                            Hello
+                        </Col>
+                        <Col md="4">
                             Hello
                         </Col>
                     </Row>
