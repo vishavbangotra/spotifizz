@@ -12,7 +12,7 @@ class Seller(models.Model):
 class Product(models.Model):
     name = models.CharField(max_length=50)
     price = models.DecimalField(max_digits=10,decimal_places=2)
-    image = models.ImageField(upload_to='product/', height_field=None, width_field=None, max_length=None)
+    image = models.ImageField(upload_to='product/', height_field=None, width_field=None, max_length=None, default='SOME STRING')
     date_published = models.DateField(auto_now_add=True)
     desciption = models.TextField(max_length=1028, null=True)
 
@@ -32,5 +32,3 @@ class Order(models.Model):
 
     def __str__(self):
         return self.user.username
-
-
