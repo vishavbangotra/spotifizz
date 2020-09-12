@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 
-
-
 // This is just an api fetch test
 
 class FetchProducts extends Component{
