@@ -1,0 +1,26 @@
+.topbar{
+  display: block;
+  position: static;
+  padding: .2%;
+  font-size: 12px;
+  background: rgb(52,58,64);
+ background: linear-gradient(90deg, rgba(52,58,64,1) 40%, #0b0b0b 100%); 
+  text-align: right;
+}
+.login-signup{
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+.signup{
+  margin-right: 10px;
+}
+.login-signup:hover{
+  border-radius: 5%;
+  /* filter:  */
+}
+#user-logo{
+  margin-right: 60px;
+  width: 12px;
+  color: white;
+}
