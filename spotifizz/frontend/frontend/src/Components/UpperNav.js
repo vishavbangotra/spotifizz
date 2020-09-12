@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './css/UpperNav.css'
 import userlogo from './../static/icons/user.png'
-import Button from 'react-bootstrap/Button'
 class UpperNav extends Component{
   render(){
     return(
