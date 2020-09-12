@@ -14,7 +14,7 @@ function App() {
       <UpperNav />
       <NavbarC />
       <Body />
-      <FetchProducts />
+      // <FetchProducts />
     </div>
   );
 }
