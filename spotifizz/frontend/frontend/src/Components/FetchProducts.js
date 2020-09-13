@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 
-
-
 // This is just an api fetch test
 
 class FetchProducts extends Component{
@@ -10,7 +8,7 @@ class FetchProducts extends Component{
     person: null
   };
   async componentDidMount(){
-    const url = "https://randomuser.me/api"
+    const url = "localhost:8000/api/"
     const response = await fetch(url)
     const data = await response.json()
     this.setState({person:data.results[0], loading:false});
