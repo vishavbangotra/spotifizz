@@ -12,6 +12,7 @@ function App() {
   return (
     <div className="App">
       <UpperNav />
+    adding more content to this file
       <NavbarC />
       <Body />
       // <FetchProducts />
